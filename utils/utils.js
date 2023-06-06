@@ -1,4 +1,5 @@
 import {console} from "next/dist/compiled/@edge-runtime/primitives/console";
+import {avimeObject} from "@/utils/src721";
 
 export async function getTraitsPretty(assetID) {
     try {
